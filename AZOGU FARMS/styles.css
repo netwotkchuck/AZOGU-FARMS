@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2b6439;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    background-image: url('Images/images (4).jpeg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product.fish {
+    background-image: url('Images/images (2).jpeg'); /* Replace with your fish image path */
+    background-size: cover;
+    color: white;
+}
+
+.product.pigs {
+    background-image: url('Images/images (3).jpeg'); /* Replace with your pigs image path */
+    background-size: cover;
+    color: white;
+}
+
+.product.chicken {
+    background-image: url('Images/chickens-poultry-farm.jpg'); /* Replace with your chicken image path */
+    background-size: cover;
+    color: white;
+}
+
+.product.eggs {
+    background-image: url('Images/poultry-egg-farming-business-plan.jpg'); /* Replace with your eggs image path */
+    background-size: cover;
+    color: white;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
